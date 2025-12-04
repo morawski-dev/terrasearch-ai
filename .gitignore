@@ -1,0 +1,7 @@
+/.idea
+*.iml
+doc/
+.env
+middleware/*.json
+middleware/__pycache__/
+middleware/app/__pycache__/
