@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+requests
+openai
+tiktoken
+langchain<1
+langchain_openai
+python-dotenv
+langchain-community
+pydantic
+langfuse<3
+sympy
+redis
+langchain-qdrant
+langchain_ollama
+slowapi
+google.api_core
