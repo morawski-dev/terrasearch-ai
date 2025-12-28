@@ -1,0 +1,16 @@
+{
+  "name": null,
+  "input_variables": [
+    "context", "question"
+  ],
+  "optional_variables": [],
+  "input_types": {},
+  "output_parser": null,
+  "partial_variables": {},
+  "metadata": null,
+  "tags": null,
+  "template": "Answer the question based only on the following context:\n    {context}\n    \n    Question: {question}\n    If the context is empty, respond by saying that you only have information from Earth Observation content.",
+  "template_format": "f-string",
+  "validate_template": false,
+  "_type": "prompt"
+}
