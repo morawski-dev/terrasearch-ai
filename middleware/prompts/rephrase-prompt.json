@@ -1,0 +1,16 @@
+{
+  "name": null,
+  "input_variables": [
+    "chat_history", "question"
+  ],
+  "optional_variables": [],
+  "input_types": {},
+  "output_parser": null,
+  "partial_variables": {},
+  "metadata": null,
+  "tags": null,
+  "template": "Given the following conversation and a follow up question, rephrase the follow up question to be a standalone question, in its original language.\n\n    Chat History:\n    {chat_history}\n    Follow Up Input: {question}\n    Standalone question:",
+  "template_format": "f-string",
+  "validate_template": false,
+  "_type": "prompt"
+}
