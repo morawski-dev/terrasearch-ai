@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ESA";
+  font-weight: normal;
+  font-style: normal;
+  src: url("fonts/notesesareg-webfont.ttf") format("truetype"),
+    url("fonts/notesesareg-webfont.woff") format("woff"),
+    url("fonts/notesesareg-webfont.woff2") format("woff2"),
+    url("fonts/notesesareg-webfont.svg") format("svg"),
+    url("fonts/notesesareg-webfont.eot") format("embedded-opentype"),
+    url("fonts/notesesareg-webfont.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ESA-ITALIC";
+  font-weight: normal;
+  font-style: italic;
+  src: url("fonts/notesesaregita-webfont.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ESA-BOLD";
+  font-weight: bold;
+  font-style: normal;
+  src: url("fonts/notesesabold-webfont.ttf") format("truetype"),
+    url("fonts/notesesabold-webfont.woff") format("woff"),
+    url("fonts/notesesabold-webfont.woff2") format("woff2"),
+    url("fonts/notesesabold-webfont.svg") format("svg"),
+    url("fonts/notesesabold-webfont.eot") format("embedded-opentype"),
+    url("fonts/notesesabold-webfont.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "ESA-BOLD-ITALIC";
+  font-weight: bold;
+  font-style: italic;
+  src: url("fonts/notesesabolita-webfont.otf") format("opentype");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  min-height: 100vh;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  & > #root {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 0.3rem;
+  height: 0.5rem;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+  height: 1px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #127d87;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #38bcc8;
+}
+
+.chatMessage a {
+  color: #00ffe4;
+}
+
+.chatMessage ol {
+  list-style: decimal;
+  padding-left: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
