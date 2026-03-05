@@ -2,7 +2,7 @@ from dotenv import find_dotenv, load_dotenv
 from langchain_community.document_loaders.text import TextLoader
 from langchain_openai.embeddings.base import OpenAIEmbeddings
 from langchain.text_splitter import MarkdownHeaderTextSplitter
-from langchain_community.vectorstores import Qdrant
+from langchain_qdrant import QdrantVectorStore
 import logging
 
 # Configure logging
@@ -34,7 +34,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large", dimensions=3072)
 
 # Qdrant
 url = "http://localhost:6333"
-qdrant = Qdrant.from_documents(
+qdrant = QdrantVectorStore.from_documents(
     documents,
     embeddings,
     url=url,

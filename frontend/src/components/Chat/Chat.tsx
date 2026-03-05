@@ -160,7 +160,7 @@ const Chat = () => {
         <span className="inline w-full text-justify flex justify-center lg:gap-3">
           <h2 className="inline w-full text-3xl lg:text-[48px] font-semibold text-center">
             Explore Earth Observation content with{" "}
-            <span className="inline text-3xl lg:text-[48px] bg-gradient-to-r from-[#01decd] to-[#0664a4] bg-clip-text text-transparent">
+            <span className="inline-block mt-4 lg:mt-8 text-3xl lg:text-[48px] bg-gradient-to-r from-[#01decd] to-[#0664a4] bg-clip-text text-transparent">
               TerraSearch AI
             </span>
           </h2>
