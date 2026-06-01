@@ -1,6 +1,6 @@
 # TerraSearch AI
 
-AI-powered conversational search platform for Earth Observation data discovery. Combines vector similarity search (RAG) with LLM reasoning to deliver intuitive, context-aware answers with source attribution.
+AI-powered conversational search platform for Earth Observation data discovery. Combines vector similarity search (RAG) with LLM reasoning to deliver intuitive, context-aware answers with source attribution
 
 **Version:** 3.0.0
 
