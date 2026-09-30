@@ -1,12 +1,12 @@
 # TerraSearch AI
 
-AI-powered conversational search platform for Earth Observation data discovery. Combines vector similarity search (RAG) with LLM reasoning to deliver intuitive, context-aware answers with source attribution.
+AI-powered conversational search platform for space data discovery. Combines vector similarity search (RAG) with LLM reasoning to deliver intuitive, context-aware answers with source attribution.
 
 **Version:** 3.0.0
 
 ## Key features
 
-- Natural-language chat over Earth Observation datasets (TERRA, WorldCereal, AgroSTAC, AGAME, DAB)
+- Natural-language chat over space datasets (TERRA, WorldCereal, AgroSTAC, AGAME, DAB)
 - RAG pipeline: Qdrant vector retrieval + GPT-4-turbo reasoning
 - Session-based chat history with context carryover
 - Source attribution per answer (`datasource` metadata returned with each response)
